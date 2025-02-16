@@ -1,7 +1,7 @@
 package controller;
 
-public class exercicio1 {
-	public exercicio1() {
+public class Exercicio1 {
+	public Exercicio1() {
 		super();
 	}
 	

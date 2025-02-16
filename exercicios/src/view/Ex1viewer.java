@@ -1,12 +1,12 @@
 package view;
 
-import controller.exercicio1;
+import controller.Exercicio1;
 import javax.swing.*;
 
 
-public class ex1viewer {
+public class Ex1viewer {
 	public static void main(String[] args) {
-		exercicio1 ex1 = new exercicio1();
+		Exercicio1 ex1 = new Exercicio1();
 		
 		int num = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira um número natural: "));
 		//int soma = 0;
