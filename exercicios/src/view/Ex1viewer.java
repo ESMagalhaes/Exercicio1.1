@@ -9,7 +9,6 @@ public class Ex1viewer {
 		Exercicio1 ex1 = new Exercicio1();
 		
 		int num = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira um número natural: "));
-		//int soma = 0;
 		int sum = ex1.sum(num);
 		JOptionPane.showMessageDialog(null,"a soma dos números naturais até esse número é " + sum);
 	}
